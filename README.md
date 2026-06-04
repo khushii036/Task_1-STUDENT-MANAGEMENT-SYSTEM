@@ -33,9 +33,9 @@ Location: python_mini_challenges/
 All program screenshots are available in the screenshots folder.
 
 # TECHNOLOGIES USED:
-Python 3
-File Handling
-CSV Module
-Functions
-OOP Concepts
+- Python 3
+* File Handling
++ CSV Module
++ Functions
++ OOP Concepts
 
