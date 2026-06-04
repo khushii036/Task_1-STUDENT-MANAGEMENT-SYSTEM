@@ -1,39 +1,47 @@
-from file_handler import (
-    add_expense,
-    view_expenses,
-    search_expense,
-    delete_expense
+from utils import (
+    add_student,
+    view_students,
+    search_student,
+    update_student,
+    delete_student
 )
+
 
 def menu():
     while True:
-        print("\n===== EXPENSE TRACKER =====")
-        print("1. Add Expense")
-        print("2. View Expenses")
-        print("3. Search Expense")
-        print("4. Delete Expense")
-        print("5. Exit")
+        print("===== STUDENT MANAGEMENT SYSTEM =====")
+        print("1. Add Student")
+        print("2. View Students")
+        print("3. Search Student")
+        print("4. Update Student")
+        print("5. Delete Student")
+        print("6. Exit")
 
-        choice = input("Enter your choice: ")
+        choice = input("\nEnter Your Choice: ")
 
         if choice == "1":
-            add_expense()
+            add_student()
 
         elif choice == "2":
-            view_expenses()
+            view_students()
 
         elif choice == "3":
-            search_expense()
+            search_student()
 
         elif choice == "4":
-            delete_expense()
+            update_student()
 
         elif choice == "5":
-            print("Thank you for using Expense Tracker!")
+            delete_student()
+
+        elif choice == "6":
+            print("\nThank You for Using Student Management System!")
             break
 
         else:
-            print("Invalid choice. Try again.")
+            print("\nInvalid Choice! Try Again.\n")
+
 
 if __name__ == "__main__":
     menu()
+    
