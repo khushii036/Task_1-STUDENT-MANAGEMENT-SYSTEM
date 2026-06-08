@@ -10,4 +10,6 @@ Features:
 + Update Student
 + Delete Student
 + Location: student_management_system/
-+ output
+
+# SCREENSHOTS:
+all screenshots are available in screenshot folder
