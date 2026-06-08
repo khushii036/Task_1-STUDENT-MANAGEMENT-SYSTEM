@@ -1,4 +1,4 @@
-# Python Week 1 Assignment
+# Python Week 1(Task:1) Assignment
 This repository contains three Python projects completed during the internship.
 
 # TASK 1: STUDENT MANAGEMENT SYSTEM:
@@ -10,6 +10,4 @@ Features:
 + Update Student
 + Delete Student
 + Location: student_management_system/
-
-# SCREENSHOTS 
-all screenshots are in screeenshots folder
++ output
